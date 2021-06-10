@@ -1,0 +1,86 @@
+body {
+    background-image: url('/Images/365.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-size: 400px;
+    background-attachment: fixed;
+    margin-bottom: 5cm;
+}
+
+
+.ScaleHeaderFontUP_AND_AddaBitOfDesign {
+    font-size: 80px;
+    text-align: center;
+    font-family: Anjali;
+    font-style: normal;
+    margin-bottom: 2cm;
+}
+
+.designImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms;
+    margin-top: 1cm;
+    width: 900px;
+}
+
+@font-face {
+    font-family: Ananda_Regular;
+    src: url('/Fonts/ananda.ttf');
+}
+
+@font-face {
+    font-family: Anjali;
+    src: url('Fonts/anjali.ttf');
+}
+
+@font-face {
+    font-family: Noorisha_Brush;
+    src: url('Fonts/BrushNoorisha.ttf');
+}
+
+@font-face {
+    font-family: DevLys_190_Thin;
+    src: url('Fonts/dev190.ttf');
+}
+
+@font-face {
+    font-family: DevLys_220_Thin;
+    src: url('Fonts/dev220.ttf');
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 4cm;
+}
+
+#effect:hover {
+    transform: scale(1.1, 1.1);
+    border-radius: 100px;
+}
+
+
+#button{
+    background-color: rgb(180, 240, 255);
+    padding: 20px 70px;
+    font-family: DevLys_220_Thin;
+    font-size: 20px;
+    border: none;
+    float: right;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(39, 78, 78);
+    color: aliceblue;
+    border-radius: 40px;
+}
+
+hr {
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 7cm;
+}
